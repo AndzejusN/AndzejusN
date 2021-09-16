@@ -6,11 +6,26 @@
 	<title>14_uzduotis</title>
 
 	<style>
-		
-.container{
-	display: flex;
-	flex-direction: column;
-			}
+	body{
+		background: seagreen;
+        font-family: sans-serif;
+	}
+	.small{
+		border-radius:  15%;
+	}
+	.medium{
+		border-radius:  15%;
+		width: 8em;
+		height: 4em;
+		font-size: large;
+	}
+	.big{
+		border-radius:  15%;
+		width: 10em;
+		height: 5em;
+		font-size: larger;
+	}
+
 
 
 
@@ -19,15 +34,18 @@
 <body>
 
 
-<div class="container">
+<form>
 
-	<div align="center">
-	<audio controls loop>	
-		<source src="file_example_MP3_700KB.mp3" type="audio/mpeg">
-	</audio>
-	</div>
+		<fieldset align="center">
 
-</div>
+			<button class="small">Push the button</button>
+			<button class="medium">Push the button</button>
+			<button class="big">Push the button</button>
+
+
+		</fieldset>
+
+	</form>
 	
 
 </body>
