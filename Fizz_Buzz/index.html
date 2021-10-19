@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/app.css">
+    <title>Java Website</title>
+</head>
+<body>
+<header>
+    <div>
+        <h2>Number:</h2>
+        <h2 id="number-pg">0</h2>
+    </div>
+</header>
+<nav>
+    <button id="fizz-btn" onclick="fizz()">FIZZ</button>
+    <button id="fizzbuzz-btn" onclick="fizzbuzz()">FIZZ BUZZ</button>
+    <button id="buzz-btn" onclick="buzz()">BUZZ</button>
+</nav>
+<p id="result-pg">Result:</p>
+<p id="points-pg">Your points:</p>
+
+<p> How to play:
+    Players take turns to count if any number divisible by three push the button "fizz",
+    and if number divisible by five use the button "buzz",
+    also if number divisible by 3 and 5 use the button "fizz  buzz".</p>
+<script src="assets/app.js"></script>
+</body>
+</html>

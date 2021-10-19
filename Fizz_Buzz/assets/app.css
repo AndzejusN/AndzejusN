@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    color: green;
+}
+nav {display: flex;
+}
+
+#fizz-btn {
+    height: 50px;
+    width: 120px;
+    background-color: darkred;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+#fizzbuzz-btn {
+    height: 50px;
+    width: 120px;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+
+}
+#buzz-btn{
+    height: 50px;
+    width: 120px;
+    background-color: darkgreen;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+button {
+    margin: 10px;
+}
+
+p {font: 20px solid black;
+    width: 400px;
+    text-align: justify;
+}
