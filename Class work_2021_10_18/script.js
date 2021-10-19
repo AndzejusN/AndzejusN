@@ -108,7 +108,7 @@ function checkIfAllSmaller(arr,x) {
 console.log(checkIfAllSmaller(arr3,5));
 
 // 11. Parašykite funkciją filteredByLetter, kuri turi du parametrus: 1. masyvas; 2. raidė. Funkcija sukuria ir grąžina naują masyvą, kuriame yra visi masyvo, nurodyto kaip pirmas parametras elemntai, kuriuose galima rasti antru paramatetru nurodytą raidę.
-// Testuosime šį masyvą  // ne iki galo suprantu ka reikia padaryti ...
+// Testuosime šį masyvą  //
 let citiesOfLithuania = [
   'Vilnius',
   'Kaunas',
@@ -121,19 +121,10 @@ let citiesOfLithuania = [
   'Jonava',
   'Utena',
 ];
-function filteredByLetter(citiesOfLithuania,x){
-    let res = [];
-    for (let i = 0; i < citiesOfLithuania.length; i++){
-    let cities = citiesOfLithuania[i].split('');
-    // console.log(cities);
-    cities.splice(1, 0, x);
-    let some = cities.join('');
-    res[i] = some;
-    }
-    return res;
 
-}
-console.log(filteredByLetter(citiesOfLithuania,'a'));
+let filteredByLetter = (arr4, x) => arr4.filter(y => y.includes(x));
+
+console.log(filteredByLetter(citiesOfLithuania, 'V'));
 
 // 12. Parašykite penkias funkcijas:
 // - calculateValue()
